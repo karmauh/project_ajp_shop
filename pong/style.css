@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* ramka */
+canvas {
+    border: 2px solid #fff;
+    background-color: #000;
+}
+
+/* menu */
+#menu {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* przyciski */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* wyświetlanie wyniku */
+#score {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
